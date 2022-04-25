@@ -33,7 +33,7 @@ body {
 
 .top {
     height: 40vh;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url(back.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.25), rgba(0, 0, 0, -78.35)), url(pexels-ann-h-4146006.jpg);
     background-size: cover;
     background-position: center;
     position: relative;
@@ -71,18 +71,18 @@ body {
 
 .budget__income {
     margin-bottom: 10px;
-    background-color: #28B9B5;
+    background-color: #668ABE;
 }
 
 .budget__expenses {
-    background-color: #FF5049;
+    background-color: #D54240;
 }
 
 .budget__income--text,
 .budget__expenses--text {
     float: left;
     font-size: 13px;
-    color: #444;
+    color: #fff;
     margin-top: 2px;
 }
 
@@ -199,8 +199,8 @@ h2 {
     margin-bottom: 15px;
 }
 
-.icome__title { color: #28B9B5; }
-.expenses__title { color: #FF5049; }
+.icome__title { color: #668ABE; }
+.expenses__title { color: #d54240; }
 
 .item {
     padding: 13px;
@@ -233,13 +233,13 @@ h2 {
 
 .income .item__value,
 .income .item__delete--btn {
-    color: #28B9B5;
+    color: #668ABE;
 }
 
 .expenses .item__value,
 .expenses .item__percentage,
 .expenses .item__delete--btn {
-    color: #FF5049;
+    color: #d54240;
 }
 
 
